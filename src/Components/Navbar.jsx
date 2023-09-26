@@ -8,8 +8,8 @@ export default function Navbar() {
     },[darkmode])
 
   return (
-    <div className={`w-100 sticky py-3 shadow-md ${darkmode ? 'bg-[#232323]' : 'bg-white'} ${darkmode ? 'text-white' : 'text-black'}`} >
-      <div className="flex justify-between text-lg px-12">
+    <div className={`w-full z-10 fixed py-3 shadow-md ${darkmode ? 'bg-[#232323]' : 'bg-white'} ${darkmode ? 'text-white' : 'text-black'}`} >
+      <div className="flex justify-between text-lg px-12 ">
         {/* Name logo */}
         <div className="logo font-1 font-semibold text-2xl">
           <span className="text-[#6D83F2] ">&lt;</span>Krishna
