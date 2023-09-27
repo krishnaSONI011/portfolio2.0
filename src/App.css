@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:opsz@6..12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Nunito+Sans:opsz@6..12&display=swap');
 
 .font-1{
   font-family: 'Montserrat', sans-serif;
@@ -9,7 +9,7 @@
   font-family: 'Nunito Sans', sans-serif;
 }
 body::-webkit-scrollbar {
-  width: 17px;
+  width: 10px;
 }
  
 body::-webkit-scrollbar-track {

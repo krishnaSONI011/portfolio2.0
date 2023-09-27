@@ -9,7 +9,7 @@ let Home = () => {
   let { darkmode } = useDarkmode();
   return (
     <>
-      <div className="absolute right-0 z-0">
+      <div className="absolute right-0 z-0 ">
         <Bgshape />
       </div>
       <div className="h-[80vh] flex justify-center items-center font-1 ">

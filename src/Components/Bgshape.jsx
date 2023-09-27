@@ -12,7 +12,7 @@ export default function Bgshape() {
       <rect
         x="663.973"
         y="-454"
-        width="1270.03"
+        width="1000"
         height="939"
         rx="15"
         transform="rotate(45 663.973 -454)"
