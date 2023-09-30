@@ -21,6 +21,7 @@ export default function Navbar() {
         <div className="flex">
           <ul className="flex text-[#6A98F0] font-1 mr-10">
             <li className={` ${darkmode ? 'hover:text-white' : 'hover:text-[#383838]'} cursor-pointer px-3`}>Home</li>
+            <li className={` ${darkmode ? 'hover:text-white' : 'hover:text-[#383838]'} cursor-pointer px-3`}>About  </li>
             <li className={`${darkmode ? 'hover:text-white' : 'hover:text-[#383838]'} cursor-pointer px-3`}>Skill</li>
             <li className={` ${darkmode ? 'hover:text-white' : 'hover:text-[#383838]'} cursor-pointer px-3`}>
               Project
