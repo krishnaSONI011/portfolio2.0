@@ -9,6 +9,8 @@ export default function GetinTouch() {
       </div>
 
      <div className='flex '>
+        <div className='py-10'>
+
         <div className='w-[400px] h-[400px] bg-[#6A98F0] flex justify-center items-center flex-col rounded-l-xl'>
                 <div>
                     <MdHandshake className='text-9xl text-white'/>
@@ -18,13 +20,18 @@ export default function GetinTouch() {
                     <div className=' font-1 text-white text-md'>Do you have any Queries ?</div>
                 </div>
         </div>
+        </div>
+
 
 
         {/* Form component */}
-        <div>
+        <div className='w-full shadow rounded-xl'>
             <Form/>
         </div>
+
+        
      </div>
+     
     </div>
   )
 }

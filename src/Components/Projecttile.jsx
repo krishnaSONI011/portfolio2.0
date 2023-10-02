@@ -16,8 +16,7 @@ export default function Projecttile(props) {
     }
     return;
    }
-  const [s] = React.useState(props.skills)
-  console.log(props.name)
+  
   return (
     <div className='w-72 m-3  shadow rounded-lg'>
       <div>

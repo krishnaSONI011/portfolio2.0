@@ -7,6 +7,7 @@ import About from './Components/About';
 import Skill from './Components/Skills';
 import Project from './Components/Project';
 import GetinTouch from './Components/GetinTouch';
+import Lastline from './Components/Lastline';
 function App() {
   return (
    <>
@@ -18,6 +19,7 @@ function App() {
    <Skill/>
    <Project/>
    <GetinTouch/>
+   <Lastline/>
    </DarkmodeProvider>
    </>
   );
