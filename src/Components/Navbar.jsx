@@ -8,7 +8,7 @@ export default function Navbar() {
     },[darkmode])
 
   return (
-    <div className={`w-full z-10 fixed py-3 shadow-md ${darkmode ? 'bg-[#232323]' : 'bg-white'} ${darkmode ? 'text-white' : 'text-black'}`} >
+    <div className={`w-full z-10 fixed py-3  shadow-md ${darkmode ? 'bg-[#232323]' : 'bg-white'} ${darkmode ? 'text-white' : 'text-black'} `} >
       <div className="flex justify-between text-lg px-12 ">
         {/* Name logo */}
         <div className="logo font-1 font-semibold text-2xl">
@@ -18,8 +18,8 @@ export default function Navbar() {
 
         {/* nav links */}
 
-        <div className="flex">
-          <ul className="flex text-[#6A98F0] font-1 mr-10">
+        <div className="block md:flex relative">
+          <ul className="block md:flex text-[#6A98F0] font-1 md:mr-10 absolute md:static bg-white h-screen md:h-fit mr-0 top-11 right-0  md:w-full">
             <li className={` ${darkmode ? 'hover:text-white' : 'hover:text-[#383838]'} cursor-pointer px-3`}>Home</li>
             <li className={` ${darkmode ? 'hover:text-white' : 'hover:text-[#383838]'} cursor-pointer px-3`}>About  </li>
             <li className={`${darkmode ? 'hover:text-white' : 'hover:text-[#383838]'} cursor-pointer px-3`}>Skill</li>
@@ -37,7 +37,7 @@ export default function Navbar() {
             </div>
           </div>
         </div>
-
+      
         {/* bottom for dark */}
       </div>
     </div>

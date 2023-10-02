@@ -4,7 +4,7 @@ let Me = () => {
     let {darkmode} = useDarkmode()
   return (
     <>
-      <div className={` w-[50vw] shadow-lg rounded-2xl py-10  ${darkmode ? "bg-[#383838]" : "bg-white"}`}>
+      <div className={`w-full md:w-[50vw] shadow-lg rounded-2xl py-10  ${darkmode ? "bg-[#383838]" : "bg-white"}`}>
         <div className="text-[#6A98F0] text-xl text-center p-2">
           ABOUT ME <span className="text-2xl">&#128075;</span>
         </div>

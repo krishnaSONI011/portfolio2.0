@@ -20,7 +20,7 @@ let Skill = ()=>{
     ]
     return(
         <>
-        <div className='bg-[#6A98F0]   p-7 px-40 mt-10'>
+        <div className='bg-[#6A98F0]   p-7 md:px-40 mt-10'>
             <div className='bg-white rounded-lg '>
 
                 <div className='text-center text-[#6A98F0] text-3xl py-6'>

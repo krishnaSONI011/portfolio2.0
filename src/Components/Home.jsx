@@ -12,9 +12,9 @@ let Home = () => {
       <div className="absolute right-0 z-0 ">
         <Bgshape />
       </div>
-      <div className="h-[80vh] flex justify-center items-center font-1 ">
+      <div className="md:h-[80vh] flex justify-center items-center font-1 ">
         <div
-          className={`flex justify-between w-full px-40 mt-10 ${
+          className={`block md:flex justify-between w-full px-40 mt-10 ${
             !darkmode ? "text-[#383838]" : "text-white"
           }`}
         >

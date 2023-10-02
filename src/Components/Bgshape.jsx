@@ -4,10 +4,11 @@ export default function Bgshape() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="725"
-      height="990"
+      
+      height="1000"
       viewBox="0 0 725 990"
       fill="none"
+      className="md:w-[550px] w-[200px] h-[500px] md:h-[1000px]"
     >
       <rect
         x="663.973"
